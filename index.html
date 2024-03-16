@@ -8,7 +8,21 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
-<body>
+<body onload="init()">
+
+    <div class="pokemonDetailView">
+        <div class="headerDetailView">
+            <div class="navHeaderDetailView">
+                <img class="navIcon" src="/img/icons/arrow-left-solid.svg" alt="close detail view">
+                <img class="navIcon" src="/img/icons/heart-regular-white.svg" alt="like this pokemon">
+            </div>
+            <div class="pokemonHeaderInfo">
+                <h1 id="pokemonName"></h1>
+                <div id="pokemonTypes"></div>
+            </div>
+        </div>
+
+    </div>
     
 </body>
 </html>

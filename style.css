@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+
+.navIcon {
+    width: 16px;
+}
+
+.pokemonDetailView {
+    height: 100vh;
+    background-color: #48D0B0;
+}
+
+.headerDetailView {
+    color: white;
+}
