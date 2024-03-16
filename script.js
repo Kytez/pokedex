@@ -1,6 +1,7 @@
 async function init() {
     await loadPokemon();
     renderPokemonInfoHeaderDetailView();
+    renderMainPokemonImage();
 }
 
 let currentPokemon;
@@ -27,5 +28,11 @@ function renderPokemonInfoHeaderDetailView() {
         `;
     }
     
+}
+
+function renderMainPokemonImage() {
+    let pokemonImage = currentPokemon['sprites']['front_default'];
+
+    document.getElementById('mainPokemonImage').innerHTML = `<img src="${pokemonImage}">`;
 }
 
