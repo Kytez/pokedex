@@ -15,6 +15,9 @@ h1 {
     height: 100vh;
     background-color: #48D0B0;
     padding: 40px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .headerDetailView {
