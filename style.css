@@ -12,12 +12,9 @@ h1 {
 }
 
 .pokemonDetailView {
-    height: 100vh;
+    height: calc(100vh - 80px);
     background-color: #48D0B0;
     padding: 40px 24px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .headerDetailView {
@@ -49,15 +46,67 @@ h1 {
 
 #mainPokemonImage {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    width: 375px;
+    margin-left: -187.5px;
+    margin-top: -187.5px;
 }
 
-#mainPokemonImage img {
-    width: 500px;
+.pokemonInfoAreaDetailView {
+    height: 50vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    border-radius: 32px 32px 0 0;
+    width: calc(100% - 48px);
+    padding: 0 24px;
+}
+
+.infoNavArea {
+    padding-top: 80px; 
+}
+
+.infoNavPoints {
+    display: flex;
+    justify-content: space-around;
+}
+
+.infoNavPoints span {
+    padding-bottom: 16px;
+    border-bottom: solid 1px rgba(80, 80, 80, 0.2);
+    flex: 1;
+    text-align: center;
+    color: rgba(80, 80, 80, 0.6);
+    display: block;
+    z-index: 5;
+}
+
+.infoNavPoints span:hover {
+    cursor: pointer;
+    color: blue !important;
+    border-bottom: solid 1px blue !important;
+}
+
+.active {
+    color: blue !important;
+    border-bottom: solid 1px blue !important;
+}
+
+#infoAreaDetails {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 16px;
+}
+
+.detailContainer {
+    display: flex;
+}
+
+.detailName {
+    color: rgba(80, 80, 80, 0.9);
+    width: 150px;
 }

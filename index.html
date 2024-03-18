@@ -23,16 +23,17 @@
             </div>
         </div>
 
-        <div id="mainPokemonImage"></div>
+        <img id="mainPokemonImage">
 
         <div class="pokemonInfoAreaDetailView">
             <div class="infoNavArea">
                 <div class="infoNavPoints">
-                    <span>About</span>
-                    <span>Stats</span>
-                    <span>Abilities</span>
+                    <span onclick="renderInfoAreaDetailsAbout()" id="about">About</span>
+                    <span onclick="renderInfoAreaDetailsStats()" id="stats">Stats</span>
+                    <span onclick="renderInfoAreaDetailsAbilities()" id="abilities">Abilities</span>
                 </div>
             </div>
+            <div id="infoAreaDetails"></div>
         </div>
 
     </div>
