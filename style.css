@@ -151,3 +151,35 @@ h1 {
         margin-top: -150px;
     }
 }
+
+@media(min-width: 600px) {
+    .pokemonHeaderInfo {
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    #mainPokemonImage {
+        width: 600px;
+        margin-left: -300px;
+        margin-top: -430px;
+    }
+
+    .pokemonInfoAreaDetailView {
+        max-width: 600px;
+        left: 50%;
+        margin-left: -324px;
+    }
+
+    #infoAreaDetails {
+        padding-top: 24px;
+        align-items: center;
+    }
+
+    .detailValue {
+        width: 100px;
+    }
+}
