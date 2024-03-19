@@ -163,8 +163,8 @@ function likePokemon() {
   if (
     document.getElementById('likeIcon').src.indexOf('/img/icons/heart-regular-white.svg') !== -1
   ) {
-    document.getElementById("likeIcon").src = "/img/icons/heart-solid-filled.svg";
+    document.getElementById("likeIcon").src = "./img/icons/heart-solid-filled.svg";
   } else {
-    document.getElementById("likeIcon").src = "/img/icons/heart-regular-white.svg";
+    document.getElementById("likeIcon").src = "./img/icons/heart-regular-white.svg";
   }
 }
