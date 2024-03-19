@@ -165,7 +165,7 @@ h1 {
     #mainPokemonImage {
         width: 600px;
         margin-left: -300px;
-        margin-top: -430px;
+        margin-top: -370px;
     }
 
     .pokemonInfoAreaDetailView {
@@ -181,5 +181,13 @@ h1 {
 
     .detailValue {
         width: 100px;
+    }
+
+    .navIcon {
+        width: 24px;
+    }
+
+    .infoNavArea {
+        padding-top: 144px;
     }
 }
